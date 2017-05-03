@@ -22,7 +22,7 @@ HunterGate(
 hunter_add_package(yadisk-client)
 find_package(yadisk-client)
 
-target_link_library(... yadisk-client::ydclient)
+target_link_library(... yadisk-client::yadisk-client)
 EOF
 ```
 
