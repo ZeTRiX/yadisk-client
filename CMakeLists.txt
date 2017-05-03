@@ -82,6 +82,6 @@ install(TARGETS yadisk-client
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 
 install(EXPORT yadisk-client-config
-		NAMESPACE yadisk-client
+		NAMESPACE yadisk-client::
 		DESTINATION cmake
 )
