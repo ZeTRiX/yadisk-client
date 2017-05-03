@@ -10,8 +10,8 @@ $ cmake --build _build --target install
 
 ### Usage
 
-```cmake
-
+```bash
+$ cat >> CMakeLists.txt <<EOF
 include("cmake/HunterGate.cmake")
 HunterGate(
     URL  "https://github.com/yadisk-operations/hunter/archive/v0.18.47.1.tar.gz"
@@ -23,4 +23,11 @@ hunter_add_package(yadisk-client)
 find_package(yadisk-client)
 
 target_link_library(... yadisk-client::ydclient)
+EOF
+```
+
+```bash
+$ cat > cmake/Hunter/config.cmake <<EOF
+hunter_config(OpenSSL VERSION 1.0.2j)
+EOF
 ```
