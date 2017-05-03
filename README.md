@@ -14,7 +14,7 @@ $ cmake --build _build --target install
 $ cat >> CMakeLists.txt <<EOF
 include("cmake/HunterGate.cmake")
 HunterGate(
-    URL  "https://github.com/yadisk-operations/hunter/archive/v0.18.47.1.tar.gz"
+    URL  "https://github.com/yadisk-operations/hunter/archive/v0.18.47.2.tar.gz"
     SHA1 "f0524772c8b1c226ff4ef8d1474aecc27e85987e"
     LOCAL
 )
