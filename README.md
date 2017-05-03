@@ -15,7 +15,7 @@ $ cat >> CMakeLists.txt <<EOF
 include("cmake/HunterGate.cmake")
 HunterGate(
     URL  "https://github.com/yadisk-operations/hunter/archive/v0.18.47.2.tar.gz"
-    SHA1 "f0524772c8b1c226ff4ef8d1474aecc27e85987e"
+    SHA1 "fe0f3a4d337ae08dbea640fd1ebc1e448919fcd3"
     LOCAL
 )
 
