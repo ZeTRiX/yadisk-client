@@ -31,3 +31,9 @@ $ cat > cmake/Hunter/config.cmake <<EOF
 hunter_config(OpenSSL VERSION 1.0.2j)
 EOF
 ```
+
+```bash
+$ cat > sources/main.cpp
+#include <yadisk/client.hpp>
+EOF
+```
