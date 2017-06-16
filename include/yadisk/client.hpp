@@ -24,7 +24,7 @@ namespace yadisk
 
         auto info(const url::path& resource, const std::map<std::string, std::string>& options = {}) -> json;
 
-        auto list(const json& options = nullptr) -> json;
+        auto list(const std::map<std::string, std::string>& options = {}) -> json;
 
         auto upload(const url::path& to, const fs::path& from, bool overwrite, const std::list<std::string>& fields = {}) -> json;
 
